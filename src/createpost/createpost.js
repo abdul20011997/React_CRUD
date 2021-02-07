@@ -87,7 +87,7 @@ class createPost extends Component{
                             this.state.editmode ? <button className="button" onClick={this.updatePost}>Update</button> : <button className="button" onClick={this.createPost}>Create</button>}
                     </div>)
         if(this.state.redirect){
-            redirect=<Redirect to="/"/>
+            redirect=<Redirect to="/React_CRUD"/>
         }
     return redirect;
     }

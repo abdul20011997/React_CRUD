@@ -13,14 +13,14 @@ class App extends Component{
     <div>
       <nav className="navbar">
         <ul>
-            <li><NavLink to="/" exact>Home</NavLink></li>
+            <li><NavLink to="/React_CRUD" exact>Home</NavLink></li>
             <li><NavLink to="/createpost">Add Post</NavLink></li>
         </ul>
       </nav>
       <Route path="/createpost" exact component={CreatePost}/>
       <Route path="/createpost/:id" component={CreatePost}/>
       <Route path="/singlepost/:id" component={SinglePost}/>
-      <Route path='/' exact component={Post} />
+      <Route path='/React_CRUD' exact component={Post} />
       
     </div>
   );
