@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    text-align:center;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3c0a0a;
+}
+.title{
+    font-size: 16px;
+    color: #0f0a2f;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.title{
+    font-size: 14px;
+    color: #0f0a2f;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.btn{
+    outline: none;
+    padding: 8px 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.edit{
+    background: blue;
+
+}
